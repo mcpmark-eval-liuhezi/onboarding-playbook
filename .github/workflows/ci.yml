@@ -1,0 +1,11 @@
+name: Onboarding CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "Hello from the onboarding playbook! Welcome to the team."
